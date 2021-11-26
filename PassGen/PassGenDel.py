@@ -4,7 +4,7 @@ import os
 def PassGenDel():
     
     # Wait 30 minutes
-    #time.sleep(10)
+    #time.sleep(1800)
     
     # Remove file
     os.remove('/opt/PassGen/Password.txt')

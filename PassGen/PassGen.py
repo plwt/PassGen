@@ -13,7 +13,7 @@ def PassGen():
         Password.append(random.choice(characters))
     
     # Create text file for password
-    textfile=open('/opt/PassGen/Password.txt', 'w', encoding='utf-8')
+    textfile=open('/opt/PassGen/PassGen/Password.txt', 'w', encoding='utf-8')
     textfile.write('Password =  \n')
     textfile.write('\n')
     

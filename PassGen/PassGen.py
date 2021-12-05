@@ -1,6 +1,4 @@
-import random
-#import os
-#import secrets
+import secrets
 
 # List of characters for password
 characters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9', '!','@','#','$','£','%','^','&','*','(',')','_','+','=','{','}','[',']','|',':',';','"','<','>','?','~','`','.','/']
@@ -12,7 +10,7 @@ def PassGen():
     
     # Generate password
     for n in range(10):
-        Password.append(random.choice(characters))
+        Password.append(secrets.choice(characters))
     
     # Create text file for password
     textfile=open('/opt/PassGen/PassGen/Password.txt', 'w', encoding='utf-8')

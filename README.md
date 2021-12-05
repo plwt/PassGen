@@ -1,3 +1,3 @@
 # PassGen
 
-Warning - currently uses PSNRG, will be working to move to CSNRG.
+Updated to CSRNG, awaiting testing.

@@ -2,10 +2,10 @@
 Version=1.0
 Name=PassGen
 Comment=Password Generator for Linux
-Exec=/usr/bin/x-terminal-emulator -e "/opt/PassGen/PassGen.sh"
+Exec=/usr/bin/x-terminal-emulator -e "/opt/PassGen/PassGen/PassGen.sh"
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/opt/PassGen/PassGen.png
+Icon=/opt/PassGen/PassGen/PassGen.png
 Categories=GNOME;GTK;Development;
 Name[en_GB]=PassGen

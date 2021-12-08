@@ -1,3 +1,3 @@
 # PassGen
 
-Updated to CSRNG, awaiting testing.
+Password generator for Linux that uses a CSNRG.

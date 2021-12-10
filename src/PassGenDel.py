@@ -7,7 +7,7 @@ def PassGenDel():
     time.sleep(10)
     
     # Remove file
-    os.remove('/opt/PassGen/src/Password.txt')
+    os.remove('/opt/PassGen/Password.txt')
 
 # Run password generator delete
 PassGenDel()

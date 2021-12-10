@@ -1,11 +1,11 @@
 #!/bin/bash
 
-python3 /opt/PassGen/PassGen/PassGen.py
+python3 /opt/PassGen/src/PassGen.py
 
 sleep 2s
 
-xdg-open /opt/PassGen/PassGen/Password.txt
+xdg-open /opt/PassGen/Password.txt
 
 sleep 30m
 
-python3 /opt/PassGen/PassGen/PassGenDel.py
+python3 /opt/PassGen/src/PassGenDel.py
